@@ -3,7 +3,7 @@
   position: fixed;
   bottom: 0;
   width: 90%;
-  min-height: 10px;
+  min-height: 70px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,7 +11,7 @@
   background-color: #1d2b3a;
   color: white;
   padding: 10px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   border-radius: 20px;
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
   border-style: solid;
