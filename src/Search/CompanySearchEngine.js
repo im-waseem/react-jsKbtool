@@ -10,20 +10,19 @@ const CompanySearchEngine = () => {
 
   const searchZauba = () => {
     const companyName = document.getElementById('companyName').value;
-    const query = encodeURIComponent(`${companyName}+site:zaubacorp.com`);
+    const query = encodeURIComponent(`${companyName}+site: zaubacorp`);
     window.open(`https://www.google.com/search?q=${query}`, '_blank');
   };
 
   const searchCompanyCheck = () => {
     const companyName = document.getElementById('companyName').value;
-    const query = encodeURIComponent(`${companyName}+site:thecompanycheck.com`); // Replace 'thecompanycheck.com' with the actual domain
+    const query = encodeURIComponent(`${companyName}+site: thecompanycheck`); // Replace 'thecompanycheck.com' with the actual domain
     window.open(`https://www.google.com/search?q=${query}`, '_blank');
   };
 
-  const searchTofler = () => {
-    const companyName = 'kreditbee'; // Replace 'kreditbee' with the company name you want to search
-    const site = 'tofler.in';
-    const query = encodeURIComponent(`${companyName}+${site}`);
+  const searchCompanyCheck = () => {
+    const companyName = document.getElementById('companyName').value;
+    const query = encodeURIComponent(`${companyName}+site: Tofler`); // Replace 'thecompanycheck.com' with the actual domain
     window.open(`https://www.google.com/search?q=${query}`, '_blank');
   };
   
